@@ -1,0 +1,13 @@
+[user]
+  name = Josh Langholtz
+  email = jjlangholtz@gmail.com
+[alias]
+  aa = add -A .
+  ci = commit
+  co = checkout
+  d = diff
+  dc = diff --cached
+  amend = commit --amend
+[commit]
+  template = ~/.gitmessage
+  verbose = true
