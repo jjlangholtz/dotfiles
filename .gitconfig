@@ -8,6 +8,25 @@
   d = diff
   dc = diff --cached
   amend = commit --amend
+[apply]
+  whitespace = fix
+[color]
+  ui = auto
 [commit]
   template = ~/.gitmessage
   verbose = true
+[core]
+  editor = code --wait
+[fetch]
+  prune = true
+  writeCommitGraph = true
+[gc]
+  writeCommitGraph = true
+[help]
+  autocorrect = 1
+[log]
+  date = human
+[push]
+  default = simple
+[rerere]
+  enabled = true
